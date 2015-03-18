@@ -95,7 +95,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    background: #ccc;
+    background: #212121;
+}
+
+.tabsWrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0em auto;
+  padding: 1.25em;
+  position: relative;
 }
 
 .tabpanel {

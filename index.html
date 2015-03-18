@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Accessible Tabbed Content</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,15 +22,15 @@
 
  <div class="tabsWrapper">
     <ul class="tablist" role="tablist">
-        <li id="tab1" class="tab" aria-controls="panel1" aria-selected="false" role="tab" tabindex="0">Prices</li>
-        <li id="tab2" class="tab" aria-controls="panel2" role="tab" aria-selected="true" tabindex="0">Features </li>
+        <li id="tab1" class="tab" aria-controls="panel1" aria-selected="false" role="tab" tabindex="0">Tab 1</li>
+        <li id="tab2" class="tab" aria-controls="panel2" role="tab" aria-selected="true" tabindex="0">Tab 2</li>
     </ul>
     <div id="panel1" class="panel hidden" aria-labelledby="tab1" role="tabpanel" aria-hidden="true">
-        <h3 tabindex="0">Prices</h3> List of prices
+        <h3 tabindex="0">Tab 1</h3> Has accessible content
     </div>
 
     <div id="panel2" class="panel" aria-labelledby="tab2" role="tabpanel" aria-hidden="false">
-        <h3 tabindex="0">Features</h3> List of product features....
+        <h3 tabindex="0">Tab 2</h3> Has accessible content too
     </div>
 </div>
 
