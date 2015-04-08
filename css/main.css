@@ -25,13 +25,15 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #f3c045;
     text-shadow: none;
+    color: #000;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #f3c045;
     text-shadow: none;
+    color: #000;
 }
 
 /*
@@ -98,8 +100,18 @@ body {
     background: #ccc;
 }
 
+
+.tabsWrapper {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0em auto;
+  padding: 0em;
+  position: relative;
+}
+
+
 .tabpanel {
-  margin: 20px;
+  margin: 1em;
   padding: 0; 
 }
 .tablist {
@@ -165,7 +177,7 @@ div[aria-hidden='false'] {
   height: 1.2em;
 }
 
-.hidden {display:none;}
+.hidden { display:none; }
 
 
 
